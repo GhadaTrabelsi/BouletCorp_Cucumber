@@ -12,7 +12,7 @@ import com.e2etests.automation.utils.Setup;
 public class BouletcorpPage {
 	
 	public ConfigFileReader configFileReader;
-    public  WebDriverWait wait;
+	public BouletcorpPage bouletcorpPage;
 
 	/* Retrieve Element */
     
@@ -32,7 +32,6 @@ public class BouletcorpPage {
 
 	public BouletcorpPage() {
 		PageFactory.initElements(Setup.getDriver(), this);
-		configFileReader = new ConfigFileReader();
 	}
 
 	
